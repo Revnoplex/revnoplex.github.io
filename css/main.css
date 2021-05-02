@@ -1,0 +1,17 @@
+body {background-color:rgb(40, 40, 40); font-family: sans-serif}
+h1 {color:rgb(255, 255, 255); text-align: center;}
+h4 {color: #ffffff; text-align: center;}
+p {color:rgb(255, 255, 255);}
+a:link, a:visited {
+    background-color: rgba(0,100,255,0.1);
+    color: white;
+    border: 2px solid #FFFFFF;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }

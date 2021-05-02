@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <title>404 - file not found</title>
+  </head>
+  <body style="text-align: center;">
+    <h1><img src='/default-logo.png' alt='main logo' style="float:left;width:96px;height:96px"  usemap="#workmap">404! file/page not found</h1>
+    <br>
+    <h4>The file or page <i id="bold" style="color:rgb(0, 255, 0);"></i> does not exist here. check there are no typos in your url</h4>
+    <map name="workmap">
+  <area shape="default" coords="0,0,0,0" alt="revnoplex" href="/">
+</map>
+    <br>
+    <p><a href="/">go back to main page</a></p>
+    <script>
+    document.getElementById("bold").innerHTML = window.location.href;
+    </script>
+  </body>
+</html>

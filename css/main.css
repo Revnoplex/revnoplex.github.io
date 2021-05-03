@@ -2,6 +2,7 @@ body {background-color:rgb(40, 40, 40); font-family: sans-serif}
 h1 {color:rgb(255, 255, 255); text-align: center;}
 h4 {color: #ffffff; text-align: center;}
 p {color:rgb(255, 255, 255);}
+hr {color: rgb(255,255,255); border: solid;}
 a:link, a:visited {
     background-color: rgba(0,100,255,0.3);
     color: white;

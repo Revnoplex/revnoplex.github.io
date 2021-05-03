@@ -5,7 +5,7 @@ p {color:rgb(255, 255, 255);}
 a:link, a:visited {
     background-color: rgba(0,100,255,0.1);
     color: white;
-    border: 2px solid #FFFFFF;
+    border: 2px solid;
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;

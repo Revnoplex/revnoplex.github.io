@@ -19,6 +19,6 @@ a:link, a:visited {
     border: 2px solid rgba(0,100,255,0.5);
   }
 .logo:link, .logo:visited, .logo:hover , .logo:active{
-color:#ffffff; border: none;
+color:#ffffff; border: none; background-color: none
 }
 img {vertical-align: middle;}

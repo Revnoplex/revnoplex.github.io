@@ -3,7 +3,8 @@ h1 {color:rgb(255, 255, 255); text-align: center;}
 h4 {color: #ffffff; text-align: center;}
 p {color:rgb(255, 255, 255);}
 hr {color: rgb(255,255,255); border: solid;}
-a:link, a:visited {
+.logo {color: white;}
+a:link, a:visited a:non(.logo) {
     background-color: rgba(0,100,255,0.5);
     color: white;
     border: 2px solid rgba(0,100,255,0.5);
@@ -14,12 +15,9 @@ a:link, a:visited {
     border-radius: 10px;
   }
   
-  a:hover, a:active {
+  a:hover, a:active, a:non(.logo) {
     background-color: rgba(0,100,255,1);
     border: 2px solid rgba(0,100,255,0.5);
   }
-a:not(.logo){
-color:#ffffff; border: none; background-color: none; padding: none;
-border-radius: none;
-}
+
 img {vertical-align: middle;}

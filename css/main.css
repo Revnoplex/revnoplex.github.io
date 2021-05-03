@@ -4,7 +4,7 @@ h4 {color: #ffffff; text-align: center;}
 p {color:rgb(255, 255, 255);}
 hr {color: rgb(255,255,255); border: solid;}
 .logo {color: white;}
-a:link, a:visited{
+a:not(.logo):link, a:visited{
     background-color: rgba(0,100,255,0.5);
     color: white;
     border: 2px solid rgba(0,100,255,0.5);

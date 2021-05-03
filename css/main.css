@@ -13,6 +13,7 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    background-color: red;
+    background-color: rgba(0,100,255,1);
+    border: 2px solid rgba(0,100,255,0.1);
   }
 img {vertical-align: middle;}

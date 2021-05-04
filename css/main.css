@@ -12,7 +12,7 @@ hr {color: rgb(255,255,255); border: solid;}
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 0px;
+    border-radius: 0px !important;
 }
 a:not(.logo):link, a:not(.logo):visited{
     background-color: rgba(0,100,255,0.5);

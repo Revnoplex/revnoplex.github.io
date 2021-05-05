@@ -5,6 +5,8 @@ h4 {color: #ffffff; text-align: center;}
 p {color:rgb(255, 255, 255);}
 hr {color: rgb(255,255,255); border: solid;}
 .logo {color: white; text-decoration: none;}
+.main-title{
+    background-color: rgba(0,100,255,0.5);}
 .t-logos{
     width: 32px;
     height: 32px;}

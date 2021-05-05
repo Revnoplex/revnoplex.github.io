@@ -6,4 +6,7 @@ document.write('\
 <a class="t-links" href="https://www.twitter.com/revnoplex"><img class="t-logos" src="/media/images/twitter_logo.svg" alt="twitter-logo">Twitter</a>    \
 <a class="t-links" href="https://discord.com/oauth2/authorize?client_id=711582152940060859&permissions=4294967295&redirect_uri=https%3A%2F%2Frevnoplex.github.io&scope=bot%20applications.commands"><img class="t-logos" src="/media/images/discord_logo.svg" alt="discord-logo">Discord Bot</a>    \
 <a class="t-links" href="https://twitch.tv/Revnoplex"><img class="t-logos" src="/media/images/twitch_logo.svg" alt="twitch-logo">Twitch</a>    \
-<a class="t-links" href="https://github.com/revnoplex"><img class="t-logos" src="/media/images/github_logo.svg" alt="github-logo">Github</a>    </span></h2>');
+<a class="t-links" href="https://github.com/revnoplex"><img class="t-logos" src="/media/images/github_logo.svg" alt="github-logo">Github</a>    </span></h2>\
+<map name="workmap">\
+  <area shape="default" coords="0,0,0,0" alt="revnoplex" href="/">\
+</map>');

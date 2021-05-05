@@ -4,24 +4,22 @@ h2 {color:rgb(255, 255, 255);}
 h4 {color: #ffffff; text-align: center;}
 p {color:rgb(255, 255, 255);}
 hr {color: rgb(255,255,255); border: solid;}
-.logo {color: white; text-decoration: none;}
-.main-title{
-    background-color: rgba(0,100,255,0.5);
-    padding: 5px 10px !important;}
+.logo {color: white !important; text-decoration: none !important;}
+.main-title{padding: 5px 10px !important;}
 .t-logos{
     width: 32px;
     height: 32px;}
-.t-links{
-    background-color: rgba(0,100,255,0.5);
+.t-links:link, .t-links:visited{
+    background-color: rgba(0,100,255,0) !important;
     color: white;
-    border: 2px solid rgba(0,100,255,0.5);
+    border: 2px solid rgba(0,100,255,0) !important;
     padding: 5px 10px !important;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 0px !important;
 }
-a:not(.logo):link, a:not(.logo):visited{
+a:link, a:visited{
     background-color: rgba(0,100,255,0.5);
     color: white;
     border: 2px solid rgba(0,100,255,0.5);
@@ -32,7 +30,7 @@ a:not(.logo):link, a:not(.logo):visited{
     border-radius: 10px;
   }
   
-  a:not(.logo):hover, a:not(.logo):active {
+  a:hover, a:active {
     background-color: rgba(0,100,255,1);
     border: 2px solid rgba(0,100,255,0.5);
   }

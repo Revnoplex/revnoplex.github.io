@@ -10,9 +10,18 @@ hr {color: rgb(255,255,255); border: solid;}
     width: 32px;
     height: 32px;}
 .t-links:link, .t-links:visited{
-    background-color: rgba(0,100,255,0) !important;
+    background-color: rgba(0,0,0,0) !important;
     color: white;
     border: 2px solid rgba(0,100,255,0) !important;
+    padding: 5px 10px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0px !important;
+}
+.t-links:hover, .t-links:active{
+    background-color: rgb(0,100,255) !important;
+    border: 2px solid rgb(0,100,255) !important;
     padding: 5px 10px !important;
     text-align: center;
     text-decoration: none;

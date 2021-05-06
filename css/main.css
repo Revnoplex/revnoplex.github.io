@@ -30,6 +30,25 @@ position: fixed;}
     display: inline-block;
     border-radius: 10px !important;
 }
+.footer-link:link, .footer-links:visited{
+  background-color: rgba(0,0,0,0) !important;
+  color: blue!important;
+  border: 2px solid rgba(0,100,255,0) !important;
+  padding: 5px 10px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0px !important;}
+  .footer-link:hover, .footer-links:active{
+    background-color: rgba(0,0,0,0) !important;
+    color: white!important;
+    border: 2px solid rgb(0,100,255) !important;
+    padding: 2px 8px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px !important;}
+  
 a:link, a:visited{
     background-color: rgba(0,100,255,0.5);
     color: white;

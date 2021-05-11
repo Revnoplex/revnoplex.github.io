@@ -47,6 +47,7 @@ a:link, a:visited{
   }
 .f-link:link, .f-link:visited{
   color: blue !important;
+  background-color: rgba(0,100,255,0.0) !important;
 }
 
 img {vertical-align: middle;}

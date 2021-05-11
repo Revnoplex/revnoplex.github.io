@@ -45,6 +45,9 @@ a:link, a:visited{
     background-color: rgba(0,100,255,1);
     border: 2px solid rgba(0,100,255,0.5);
   }
+.f-link:link, .f-link:visited{
+  color: blue !important;
+}
 
 img {vertical-align: middle;}
 .title-links{font-size: 15px;}

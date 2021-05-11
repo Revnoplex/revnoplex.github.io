@@ -39,7 +39,7 @@ position: fixed;}
   text-decoration: none;
   display: inline-block;
   border-radius: 0px !important;}
-  .footer-link:hover, .footer-link:active{
+.footer-link:hover, .footer-link:active{
     background-color: rgba(0,0,0,0) !important;
     color: rgb(0,0,255) !important;
     border: 2px solid rgb(0,100,255) !important;

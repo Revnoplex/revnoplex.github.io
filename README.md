@@ -18,7 +18,7 @@
 <!--<button onclick="document.location='page2.html'">also click here</button>-->
 <br>
 <br>
-<img src="/media/images/maxresdefault.jpg" alt="sus">
+<!--<img src="/media/images/maxresdefault.jpg" alt="sus">-->
 
 </body>
 </html>

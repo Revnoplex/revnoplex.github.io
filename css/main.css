@@ -48,6 +48,6 @@ a:link, a:visited{
 .f-link:link, .f-link:visited{
   color: rgb(0, 73, 184) !important;
   background-color: rgba(0,100,255,0.0) !important;
-  border: rgba(0,0,0,0.0)}
+  border: rgba(0,0,0,0.0)} !important
 img {vertical-align: middle;}
 .title-links{font-size: 15px;}

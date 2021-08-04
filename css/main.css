@@ -1,4 +1,8 @@
-body {background-color:rgb(40, 40, 40); font-family: sans-serif}
+body {
+  background-color:rgb(40, 40, 40);
+  font-family: sans-serif;
+  margin-top: 0px;
+}
 pre {font-family: sans-serif; text-align: center;}
 h1 {color:rgb(255, 255, 255);}
 h2 {color:rgb(255, 255, 255);}
@@ -6,8 +10,17 @@ h4 {color: #ffffff; text-align: center;}
 p {color:rgb(255, 255, 255);}
 hr {color: rgb(255,255,255); border: solid;}
 .logo {color: white !important; text-decoration: none !important;}
-.main-title{padding: 5px 10px !important;
-position: fixed;}
+.main-title{
+  padding-top: 1em;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(40, 40, 40);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
 .t-logos{
     width: 32px;
     height: 32px;}

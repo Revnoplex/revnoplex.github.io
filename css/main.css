@@ -49,6 +49,11 @@
     margin-block-end: 0em;
   }
 
+  .main-title-text {
+    color: #fff;
+    text-decoration: none;
+  }
+
   .t-logos {
     width: 32px;
     height: 32px;
@@ -77,8 +82,8 @@
     border-radius: 10px !important;
   }
 
-  a:link,
-  a:visited {
+  .btn:link,
+  .btn:visited {
     background-color: rgba(0, 100, 255, 0.5);
     color: white;
     border: 2px solid rgba(0, 100, 255, 0.5);
@@ -89,8 +94,8 @@
     border-radius: 10px;
   }
 
-  a:hover,
-  a:active {
+  .btn:hover,
+  .btn:active {
     background-color: rgba(0, 100, 255, 1);
     border: 2px solid rgba(0, 100, 255, 0.5);
   }
@@ -100,7 +105,8 @@
     color: rgb(0, 73, 184) !important;
     background-color: rgba(0, 100, 255, 0.0) !important;
     padding: 0 !important;
-    border: rgba(0, 0, 0, 0.0)
+    border: rgba(0, 0, 0, 0.0);
+    text-decoration: none;
   }
 
   img {

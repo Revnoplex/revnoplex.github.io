@@ -9,7 +9,7 @@
 
 <h1>Revnoplex.github.io</h1>
 
-<h4>official site (but not finished yet)</h4>
+<h4>Main site</h4>
 
 <hr>
 

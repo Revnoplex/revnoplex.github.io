@@ -1,7 +1,7 @@
 document.write('\
 \
 <h2 class="main-title">\
-<img src="/media/images/default-large.png" alt="main logo" width="32" height="32" usemap="#workmap"> <a class="main-title-text" href="/">Revnoplex</a> \
+<img src="/media/images/default-black.png" alt="main logo" width="32" height="32" usemap="#workmap"> <a class="main-title-text" href="/">Revnoplex</a> \
 <span class="title-links"><a class="t-links" href="/downloads">Download Center</a>\
 <a class="t-links" target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/channel/UC1VSDiiRQZRTbxNvWhIrJfw"><img class="t-logos" src="/media/images/yt_logo.svg" alt="youtube-logo">Youtube</a>    \
 <a class="t-links" target="_blank" rel="noreferrer noopener" href="https://www.twitter.com/revnoplex"><img class="t-logos" src="/media/images/twitter_logo.svg" alt="twitter-logo">Twitter</a>    \

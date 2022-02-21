@@ -49,6 +49,11 @@
     margin-block-end: 0em;
   }
 
+  .rickroll {
+    max-height: 480;
+    width: auto;
+  }
+
   .main-title-text {
     color: #fff;
     text-decoration: none;

@@ -49,6 +49,10 @@
     margin-block-end: 0em;
   }
 
+  noscript {
+    color: rgb(255, 255, 255);
+  }
+
   .main-title-text {
     color: #fff;
     text-decoration: none;

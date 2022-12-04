@@ -87,6 +87,17 @@
     border-radius: 10px !important;
   }
 
+  .disabledBtn {
+      background-color: rgba(100, 100, 100, 0.5);
+      color: white;
+      border: 2px solid rgba(100, 100, 100, 0.5);
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 10px;
+  }
+
   .btn:link,
   .btn:visited {
     background-color: rgba(0, 100, 255, 0.5);

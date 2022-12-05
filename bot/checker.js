@@ -3,6 +3,7 @@ var unclicked = '<p id="addBotLink" class="disabledBtn">Add Bot</p>'
 var terms = document.getElementById('terms');
 var addBotLink = document.getElementById('addBotLink');
 var addBot = document.getElementById('addBot')
+addBot.innerHTML=unclicked
 console.log(addBot);
 terms.onchange = function() {
     if (this.checked) {

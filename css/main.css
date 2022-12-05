@@ -1,6 +1,6 @@
 
   body {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(20, 20, 20);
     font-family: sans-serif;
     margin-top: 0px;
   }
@@ -44,7 +44,7 @@
     padding-right: 10px;
     position: fixed;
     width: 100%;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(20, 20, 20);
     margin-block-start: 0em;
     margin-block-end: 0em;
   }

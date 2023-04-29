@@ -10,6 +10,22 @@
     text-align: center;
   }
 
+  .add-bot-style {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .add-bot-style > ul {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .add-bot-style > ol {
+    display: inline-block;
+    text-align: left;
+  }
+
   h1 {
     color: rgb(255, 255, 255);
   }
@@ -23,7 +39,7 @@
     text-align: center;
   }
 
-  p, label {
+  p, label, ul, li {
     color: rgb(255, 255, 255);
   }
 
@@ -131,4 +147,14 @@
 
   .title-links {
     font-size: 15px;
+  }
+
+  .featured-items {
+    display: flex;
+  }
+
+  .featured-item {
+    flex: 1; /* additionally, equal width */
+    display: inline-block;
+    padding: 1em;
   }

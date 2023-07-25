@@ -12,7 +12,12 @@
     <script>
       const urlQueries = new URLSearchParams(window.location.search);
       const subPath = urlQueries.get('subPath');
-      window.location.replace(`https://github.com/Revnoplex/${subPath}`);
+      if (subPath) {
+        window.location.replace(`https://github.com/Revnoplex/${subPath}`);
+      } else {
+        window.location.replace("https://github.com/Revnoplex")
+      }
+
     </script>
     <link href="https://github.com/Revnoplex" rel="me">
     <link href="https://revnoplex.github.io" rel="me">

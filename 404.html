@@ -24,6 +24,14 @@
     
     <script>
     document.getElementById("bold").innerHTML = window.location.pathname;
+    if (window.location.pathname.startsWith("/404.html")) {
+      fullPath = window.location.pathname.split("/")
+      subPath = fullPath.slice(3).join("/")
+      redirect_page = fullPath.slice(1,3).join("/")
+      window.location.replace(`/${redirect_page}?subPath=${subPath}`);
+      console.log(subPath)
+      console.log(redirect_page)
+    }
     </script>
     <script src="/scripts/footer.js"></script>
     </pre>

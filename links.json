@@ -1,0 +1,50 @@
+{
+    "internal": [
+        {
+            "path": "/downloads",
+            "title": "Downloads"
+        },
+        {
+            "path": "/fun",
+            "title": "Funny"
+        },
+        {
+            "path": "/revnobot",
+            "title": "Discord Bot",
+            "icon": "discord-logo"
+        }
+    ],
+    "external": [
+        {
+            "name": "youtube",
+            "dynamic": true,
+            "url": "https://youtube.com/@Revnoplex"
+        },
+        {
+            "name": "twitter",
+            "dynamic": true,
+            "url": "https://twitter.com/Revnoplex"
+        },
+        {
+            "name": "reddit",
+            "dynamic": true,
+            "url": "https://reddit.com/user/c468"
+        },
+        {
+            "name": "twitch",
+            "dynamic": true,
+            "url": "https://twitch.tv/Revnoplex"
+        },
+        {
+            "name": "github",
+            "dynamic": true,
+            "url": "https://github.com/revnoplex"
+        },
+        {
+            "name": "mastodon",
+            "dynamic": true,
+            "url": "https://mastodon.social/@Revnoplex",
+            "rel": "me"
+        }
+    ]
+}

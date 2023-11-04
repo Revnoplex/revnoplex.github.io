@@ -1,3 +1,13 @@
+function writeTitle(links) {
+  for (i = 0; i < links.internal.length; ++i) {
+    
+  }
+}
+
+fetch('./links.json')
+.then((response) => response.json())
+.then((json) => writeTitle(json));
+
 document.write('\
 \
 <h2 class="main-title">\

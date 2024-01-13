@@ -102,6 +102,7 @@
     display: inline-block;
     border-radius: 10px !important;
   }
+  
 
   .disabledBtn {
       background-color: rgba(100, 100, 100, 0.5);

@@ -14,7 +14,7 @@
 <hr>
 
 
-<p><a href="https://revnoplex.github.io">click here to go to site</a>
+<p><a href="https://revnoplex.xyz">click here to go to site</a>
 <!--<button onclick="document.location='page2.html'">also click here</button>-->
 <br>
 <br>

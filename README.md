@@ -7,9 +7,9 @@
 <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
 <body>
 
-<h1>Revnoplex.github.io</h1>
+<h1>Revnoplex.github.io (Revnoplex.xyz)</h1>
 
-<h2>Main site for useless shit</h2>
+<h2>Code for personal website</h2>
 
 <hr>
 

@@ -11,7 +11,7 @@
         {
             "path": "/revnobot",
             "title": "Discord Bot",
-            "icon": "discord-logo"
+            "icon": "revnobot"
         }
     ],
     "external": [

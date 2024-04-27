@@ -84,7 +84,7 @@
   .t-links:visited {
     background-color: rgba(0, 0, 0, 0) !important;
     color: white;
-    border: 2px solid rgba(0, 100, 255, 0) !important;
+    border: 2px solid rgba(100, 100, 255, 0) !important;
     padding: 5px 10px !important;
     text-align: center;
     text-decoration: none;
@@ -94,8 +94,8 @@
 
   .t-links:hover,
   .t-links:active {
-    background-color: rgb(0, 100, 255) !important;
-    border: 2px solid rgb(0, 100, 255) !important;
+    background-color: rgb(100, 100, 255, 0.5) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
     padding: 5px 10px !important;
     text-align: center;
     text-decoration: none;
@@ -107,8 +107,8 @@
   .disabledBtn {
       background-color: rgba(100, 100, 100, 0.5);
       color: white;
-      border: 2px solid rgba(100, 100, 100, 0.5);
-      padding: 10px 10px;
+      border: 2px solid rgba(0, 100, 255, 0);
+      padding: 15px 25px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -117,9 +117,9 @@
 
   .webringBtn:link,
   .webringBtn:visited {
-    background-color: rgba(0, 100, 255, 0.5);
+    background-color: rgba(100, 100, 255, 0.5);
     color: white;
-    border: 2px solid rgba(0, 100, 255, 0.5);
+    border: 2px solid rgba(100, 100, 255, 0);
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
@@ -129,16 +129,16 @@
 
   .webringBtn:hover,
   .webringBtn:active {
-    background-color: rgba(0, 100, 255, 1);
-    border: 2px solid rgba(0, 100, 255, 0.5);
+    background-color: rgba(100, 100, 255, 1);
+    border: 2px solid rgba(100, 100, 255, 0.5);
   }
 
 
   .btn:link,
   .btn:visited {
-    background-color: rgba(0, 100, 255, 0.5);
+    background-color: rgba(100, 100, 255, 0.5);
     color: white;
-    border: 2px solid rgba(0, 100, 255, 0.5);
+    border: 2px solid rgba(100, 100, 255, 0);
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
@@ -148,13 +148,13 @@
 
   .btn:hover,
   .btn:active {
-    background-color: rgba(0, 100, 255, 1);
-    border: 2px solid rgba(0, 100, 255, 0.5);
+    background-color: rgba(100, 100, 255, 1);
+    border: 2px solid rgba(100, 100, 255, 0.5);
   }
   
   .f-link:link,
   .f-link:visited {
-    color: rgb(0, 73, 184) !important;
+    color: rgb(73, 73, 184) !important;
     background-color: rgba(0, 100, 255, 0.0) !important;
     padding: 0 !important;
     border: rgba(0, 0, 0, 0.0);

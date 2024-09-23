@@ -1,4 +1,3 @@
-// i am missing and have not been updated from github pages
 var clicked = '<p><a id="addBotLink" class="btn" href="/redirects/revnobot">Add Bot To A Server</a></p>'
 var unclicked = '<p id="addBotLink" class="disabledBtn">Add Bot To A Server</p>'
 var clickedUser = '<p><a id="addBotLink" class="btn" href="/redirects/revnobot-user">Use Bot Everywhere</a></p>'

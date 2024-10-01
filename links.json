@@ -45,6 +45,11 @@
             "dynamic": true,
             "url": "https://mastodon.social/@Revnoplex",
             "rel": "me"
+        },
+        {
+            "name": "bluesky",
+            "dynamic": true,
+            "url": "https://bsky.app/profile/revnoplex.bsky.social"
         }
     ]
 }

@@ -178,3 +178,11 @@
     display: inline-block;
     padding: 1em;
   }
+
+  code {
+    font-family: Consolas,"courier new";
+    color: rgb(100, 100, 255);
+    background-color: #0e0e0e;
+    padding: 2px;
+    font-size: 95%;
+  }

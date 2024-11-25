@@ -1,7 +1,7 @@
 var clicked = '<p><a id="addBotLink" class="btn" href="/redirects/revnobot">Add Bot To A Server</a></p>'
 var unclicked = '<p id="addBotLink" class="disabledBtn">Add Bot To A Server</p>'
-var clickedUser = '<p><a id="addBotLink" class="btn" href="/redirects/revnobot-user">Use Bot Everywhere</a></p>'
-var unclickedUser = '<p id="addBotLink" class="disabledBtn">Use Bot Everywhere</p>'
+var clickedUser = '<p><a id="addBotLink" class="btn" href="/redirects/revnobot-user">Add Bot To Your Discord Account</a></p>'
+var unclickedUser = '<p id="addBotLink" class="disabledBtn">Add Bot To Your Discord Account</p>'
 var terms = document.getElementById('terms');
 var addBotLink = document.getElementById('addBotLink');
 var addBot = document.getElementById('addBot')

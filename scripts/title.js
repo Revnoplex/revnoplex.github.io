@@ -8,7 +8,7 @@ fetch('./links.json')
 .then((response) => response.json())
 .then((json) => writeTitle(json));
 
-document.write('\
+var titleContent ='\
 \
 <h2 class="main-title">\
 <img src="/media/images/default-black.png" alt="main logo" width="32" height="32" usemap="#workmap"> <a class="main-title-text" href="/">Revnoplex</a> \
@@ -26,4 +26,7 @@ document.write('\
  </span></h2>\
 <map name="workmap">\
   <area shape="default" coords="0,0,0,0" alt="revnoplex" href="/">\
-</map>');
+</map>';
+
+var title = document.getElementById('title');
+title.innerHTML = titleContent

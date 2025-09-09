@@ -13,7 +13,6 @@ var titleContent ='\
 <h2 class="main-title">\
 <img src="/media/images/default-black.png" alt="main logo" width="32" height="32" usemap="#workmap"> <a class="main-title-text" href="/">Revnoplex</a> \
 <span class="title-links">\
-<a class="t-links" href="/downloads">Downloads</a>\
 <a class="t-links" href="/fun">Funny</a>\
 <a class="t-links" href="/projects">Projects</a>\
 <a class="t-links" href="/revnobot"><img class="t-logos" src="/media/images/revnobot.png" alt="revnobot-logo"> Discord Bot</a>    \

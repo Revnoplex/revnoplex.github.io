@@ -41,7 +41,7 @@ function writeTitle(links) {
   title.innerHTML = titleContent;
 }
 
-fetch('./links.json')
+fetch('/links.json')
 .then(response => {
   if (!response.ok) {
     throw new Error(`HTTP Error ${response.status}`);

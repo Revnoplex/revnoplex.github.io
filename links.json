@@ -1,12 +1,12 @@
 {
     "internal": [
         {
-            "path": "/downloads",
-            "title": "Downloads"
-        },
-        {
             "path": "/fun",
             "title": "Funny"
+        },
+        {
+            "path": "/projects",
+            "title": "Projects"
         },
         {
             "path": "/revnobot",
@@ -18,7 +18,8 @@
         {
             "name": "youtube",
             "dynamic": true,
-            "url": "https://youtube.com/@Revnoplex"
+            "url": "https://youtube.com/@Revnoplex",
+            "icon" : "yt"
         },
         {
             "name": "twitter",

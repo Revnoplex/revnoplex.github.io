@@ -1,32 +1,55 @@
-function writeTitle(links) {
-  for (i = 0; i < links.internal.length; ++i) {
-    
-  }
-}
-
-fetch('./links.json')
-.then((response) => response.json())
-.then((json) => writeTitle(json));
-
-var titleContent ='\
-\
+var titleContent = '\
 <h2 class="main-title">\
 <img src="/media/images/default-black.png" alt="main logo" width="32" height="32" usemap="#workmap"> <a class="main-title-text" href="/">Revnoplex</a> \
 <span class="title-links">\
-<a class="t-links" href="/fun">Funny</a>\
-<a class="t-links" href="/projects">Projects</a>\
-<a class="t-links" href="/revnobot"><img class="t-logos" src="/media/images/revnobot.png" alt="revnobot-logo"> Discord Bot</a>    \
-<a class="t-links" target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/channel/UC1VSDiiRQZRTbxNvWhIrJfw"><img class="t-logos" src="/media/images/yt-logo.svg" alt="youtube-logo">Youtube</a>    \
-<a class="t-links" target="_blank" rel="noreferrer noopener" href="https://www.twitter.com/revnoplex"><img class="t-logos" src="/media/images/twitter-logo.svg" alt="twitter-logo">Twitter</a>    \
-<a class="t-links" target="_blank" rel="noreferrer noopener" href="https://www.reddit.com/user/C468"><img class="t-logos" src="/media/images/reddit-logo.svg" alt="reddit-logo">Reddit</a>    \
-<a class="t-links" target="_blank" rel="noreferrer noopener" href="https://twitch.tv/Revnoplex"><img class="t-logos" src="/media/images/twitch-logo.svg" alt="twitch-logo"> Twitch</a>    \
-<a class="t-links" target="_blank" rel="noreferrer noopener" href="https://github.com/revnoplex"><img class="t-logos" src="/media/images/github-logo.svg" alt="github-logo"> Github</a>   \
-<a class="t-links" target="_blank" rel="noreferrer noopener me" href="https://mastodon.social/@Revnoplex"><img class="t-logos" src="/media/images/mastodon-logo.svg" alt="mastodon-logo"> Mastodon</a>\
-<a class="t-links" target="_blank" rel="noreferrer noopener" href="https://bsky.app/profile/revnoplex.xyz"><img class="t-logos" src="/media/images/bluesky-logo.svg" alt="bluesky-logo">Bluesky</a>    \
- </span></h2>\
-<map name="workmap">\
-  <area shape="default" coords="0,0,0,0" alt="revnoplex" href="/">\
-</map>';
+';
+
+var fallbackTitleContent ='\
+<h2><img src="/media/images/default-black.png" alt="main logo" width="32" height="32" usemap="#workmap"> \
+<a class="main-title-text" href="/">Revnoplex</a>     <a class="t-links" href="/site-menu">Website Menu</a></h2>\
+';
 
 var title = document.getElementById('title');
-title.innerHTML = titleContent
+
+function writeTitle(links) {
+  for (i = 0; i < links.internal.length; ++i) {
+    titleContent += `<a class="t-links" href=${links.internal[i].path}>`;
+    if ("icon" in links.internal[i]) {
+      titleContent += `<img class="t-logos" src="/media/images/${links.internal[i].icon}.png" alt="${links.internal[i].name}-logo"> `;
+    }
+    titleContent += `${links.internal[i].title}</a>`
+  }
+  
+  for (i = 0; i < links.external.length; ++i) {
+    titleContent += `    <a class="t-links" target="_blank" rel="noreferrer noopener ${"rel" in links.external[i] ? links.external[i].rel : ""}" href="${links.external[i].url}" style="text-transform: capitalize">`;
+    
+    if (links.external[i].dynamic) {
+      titleContent += `<img class="t-logos" src="/media/images/${"icon" in links.external[i] ? links.external[i].icon : links.external[i].name}-logo.svg" alt="${links.external[i].name}-logo"> `;
+    } else if ("imgUrl" in links.external[i]){
+      titleContent += `<img class="t-logos" src="${links.external[i].imgUrl}" alt="${"imgAlt" in links.external[i] ? links.external[i].imgUrl : ""}"> `;
+    }
+
+    titleContent += `${links.external[i].name}</a>`;
+  }
+
+  titleContent += '\
+</span></h2>\
+<map name="workmap">\
+  <area shape="default" coords="0,0,0,0" alt="revnoplex" href="/">\
+</map>\
+'
+  title.innerHTML = titleContent;
+}
+
+fetch('./links.json')
+.then(response => {
+  if (!response.ok) {
+    throw new Error(`HTTP Error ${response.status}`);
+  }
+  return response.json();
+})
+.then((json) => writeTitle(json))
+.catch(error => {
+  console.error('Unable to display title:', error);
+  title.innerHTML = fallbackTitleContent;
+});

@@ -9,7 +9,7 @@
 
 <h1>Revnoplex.github.io (Revnoplex.xyz)</h1>
 
-<h2>Code for personal website</h2>
+<h2>Personal website</h2>
 
 <hr>
 
